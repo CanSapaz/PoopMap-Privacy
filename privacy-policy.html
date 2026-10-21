@@ -5,44 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PoopMap — Privacy Policy</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 40px 24px; line-height: 1.6; color: #2b1d14; }
-    h1 { color: #7c4a2d; }
-    h2 { margin-top: 32px; }
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 40px 24px; line-height: 1.6; color: #2a1c13; background: #fbf7f2; }
+    h1 { color: #7c4a2d; } h2 { margin-top: 32px; } a { color: #7c4a2d; }
+    @media (prefers-color-scheme: dark) { body { background: #15100d; color: #f4ece4; } h1, a { color: #d1976a; } }
   </style>
 </head>
 <body>
   <h1>PoopMap — Privacy Policy</h1>
-  <p><em>Last updated: August 2026</em></p>
+  <p><em>Last updated: October 20, 2026</em></p>
 
   <h2>The short version</h2>
-  <p><strong>PoopMap collects no data. None.</strong> There are no accounts, no ads, no analytics and no trackers.</p>
+  <p><strong>PoopMap collects no personal data.</strong> There are no accounts, no ads, no analytics and no trackers. The app has no servers of its own.</p>
 
   <h2>Location</h2>
-  <p>Your location is used only on your device, to show public toilets near you and to compute distances. It is never transmitted to us or to any third party. Map tiles and toilet data are fetched from public servers (OpenFreeMap and OpenStreetMap's Overpass API); like any web request, those servers see your IP address and the map area requested, but PoopMap sends no identifiers with these requests.</p>
+  <p>Your location is used on your device to show public toilets near you and to compute distances. To fetch toilets, the app sends the <em>map area it is looking at</em> (coordinates and a search radius) directly to OpenStreetMap's public Overpass API; map tiles come from OpenFreeMap. Like any web request, those servers see your IP address and the requested area. PoopMap sends no identifiers, no account and no device data with these requests, and we never receive your location.</p>
 
   <h2>Data stored on your device</h2>
-  <p>Favorites, personal notes, offline area packs and settings are stored locally on your phone only. Deleting the app deletes them.</p>
+  <p>Saved toilets, personal notes, offline area packs and settings are stored locally on your phone only. Deleting the app deletes them.</p>
 
   <h2>Purchases</h2>
-  <p>PoopMap Pro and tips are processed entirely by Google Play Billing. We operate no purchase servers and receive no personal payment information. Your Pro entitlement is tied to your Google account by Google Play and restored by Google Play.</p>
+  <p>PoopMap Pro (one-time purchase) and tips are processed entirely by the platform's own billing system: Google Play Billing on Android and Apple In-App Purchase (StoreKit) on iOS. We operate no purchase servers and receive no personal payment information. Your Pro entitlement is tied to your store account and restored by the store ("Restore purchase" in the app).</p>
 
   <h2>Permissions</h2>
   <ul>
-    <li><strong>Location</strong> — only while using the app, to find toilets near you.</li>
+    <li><strong>Location (while using the app)</strong> — to find toilets near you.</li>
     <li><strong>Internet</strong> — to load the map and toilet data.</li>
   </ul>
   <p>That is the complete list.</p>
 
   <h2>Third-party services</h2>
   <ul>
-    <li>Map data: © OpenStreetMap contributors (ODbL)</li>
+    <li>Toilet data: © OpenStreetMap contributors (ODbL), via the Overpass API</li>
     <li>Map tiles: OpenFreeMap / OpenMapTiles</li>
-    <li>Purchases: Google Play Billing</li>
+    <li>Purchases: Google Play Billing (Android), Apple In-App Purchase (iOS)</li>
   </ul>
+
+  <h2>Children</h2>
+  <p>PoopMap is suitable for all ages and collects no data from anyone.</p>
 
   <h2>Changes &amp; contact</h2>
   <p>If this policy ever changes, the update will be published at this address.</p>
   <p>Developer: Fidovasoft<br>
   Contact: <a href="mailto:fidovasoft@gmail.com">fidovasoft@gmail.com</a></p>
+  <p><a href="terms.html">Terms of Use</a> · <a href="index.html">PoopMap</a></p>
 </body>
 </html>
